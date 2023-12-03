@@ -48,4 +48,4 @@ if st.button("Predict"):
     # 3. Predict
     result = xgb2.predict(vector_input)[0]
     # 4. Display
-    st.header(f"Predicted rating is : {result}")
+    st.header(f"Predicted rating is : {result}/5")
